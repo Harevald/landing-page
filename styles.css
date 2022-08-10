@@ -1,3 +1,7 @@
+/* DEFAULT tags section */
+a{
+    text-decoration: none;
+}
 body{
     margin: 0 auto;
     padding: 0 auto;
@@ -9,12 +13,16 @@ button{
     border: 1px white solid;
     border-radius: 5px;
 }
+ul{
+    list-style: none;
+}
+/* HEADER class SECTION*/
 .header,
 .footer{
     background-color: #1F2937;
     color: white;
 }
-.header-text{
+.header-title{
     color: #F9FAF8;
     font-size: 48px;
     font-weight: 800;
@@ -22,6 +30,7 @@ button{
 .logo{
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: bold;
 }
 .secondary-text{
     font-size: 18px;
