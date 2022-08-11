@@ -57,7 +57,8 @@ ul{
 .header-middle{
     margin-top: 80px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 100px;
 }
 .header-container{
     width: 400px;
