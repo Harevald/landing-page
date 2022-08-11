@@ -6,15 +6,24 @@ body{
     margin: 0 auto;
     padding: 0 auto;
     font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
     
 }
 button{
     background-color: #3882F6;
     border: 1px white solid;
     border-radius: 5px;
+    padding: 8px 32px;
+    margin-top: 16px;
+    color: white;
+    font-weight: 800;
+    cursor: pointer;
 }
 ul{
     list-style: none;
+    display: flex;
+    gap: 16px;
+    margin: 0;
 }
 /* HEADER class SECTION*/
 .header,
@@ -22,10 +31,39 @@ ul{
     background-color: #1F2937;
     color: white;
 }
+.header{
+    display: flex;
+    flex-direction: column;
+    padding: 0 20vh 20vh 20vh;
+}
+.header-button{
+    border: none;
+}
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+}
 .header-title{
     color: #F9FAF8;
     font-size: 48px;
     font-weight: 800;
+}
+.header-middle{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.header-container{
+    width: 400px;
+}
+.header-container,
+.placeholder{
+    height: 200px;
+}
+.placeholder{
+    background-color: gray;
+    width: 800px;
 }
 .logo{
     font-size: 24px;
@@ -36,6 +74,7 @@ ul{
     font-size: 18px;
     color: #E5E7EB;
 }
+
 .quote-container{
     background-color: #E5E7EB;
 }
