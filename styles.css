@@ -19,6 +19,7 @@ button{
     font-weight: 800;
     cursor: pointer;
 }
+
 ul{
     list-style: none;
     display: flex;
@@ -74,7 +75,38 @@ ul{
     font-size: 18px;
     color: #E5E7EB;
 }
-
+/*PAGE CONTENT SECTION*/
+/*INFO SECTION*/
+.info-container{
+    display: flex;
+    flex-direction: column;
+    margin: 10vh 20vh;
+}
+.info-title{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+.cards-container{
+    display: flex;
+    justify-content: space-between;
+}
+.info > img{
+    height: 250px;
+    width: auto;
+    border-radius: 250px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.info-text{
+    padding-top: 16px;
+}
 .quote-container{
     background-color: #E5E7EB;
 }
@@ -87,3 +119,4 @@ ul{
 .sing-up-container{
     background-color: #3882F6;
 }
+
