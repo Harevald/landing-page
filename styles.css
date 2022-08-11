@@ -11,10 +11,9 @@ body{
 }
 button{
     background-color: #3882F6;
-    border: 1px white solid;
     border-radius: 5px;
     padding: 8px 32px;
-    margin-top: 16px;
+    font-size: 18px;
     color: white;
     font-weight: 800;
     cursor: pointer;
@@ -39,6 +38,7 @@ ul{
 }
 .header-button{
     border: none;
+    margin-top: 16px;
 }
 .header-top{
     display: flex;
@@ -134,8 +134,34 @@ ul{
     font-weight: 800;
     padding-top: 16px;
 }
-
+.sign-up-background{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .sing-up-container{
     background-color: #3882F6;
+    width: 50%;
+    height: 50%;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
-
+.sign-up-text-wrap{
+    display: flex;
+    flex-direction: column;
+    margin: 32px;
+}
+.sign-up-title{
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+}
+.sign-up-button{
+    margin: 32px;
+    border: 2px white solid;
+}
